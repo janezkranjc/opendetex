@@ -73,15 +73,15 @@ CFLAGS	= -O ${DEFS} -Wall
 
 # Use your favorite lexical scanner
 #
-LEX	= lex
-#LEX	= flex
+#LEX	= lex
+LEX	= flex
 
 #LFLAGS	= -8 -C
 
 # scanner library
 #
-LEXLIB	= -ll
-#LEXLIB	= -lfl
+#LEXLIB	= -ll
+LEXLIB	= -lfl
 
 LPR	= lpr -p
 
